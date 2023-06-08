@@ -16,10 +16,11 @@ body{
 }   
 .container{
   width: 440px;
-  border-radius: 50px;
+  border-radius: 10px;
   background: #e29993;
   box-shadow: 0 10px 20px rgba(0,0,0,0.08);
-}
+} 
+
 .container h2{
   font-size: 40px;
   font-weight: 600;
@@ -128,3 +129,4 @@ body{
   }
 }
 
+ 

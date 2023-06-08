@@ -12,7 +12,7 @@ const initTimer = maxTime => {
     timer = setInterval(() => {
         if(maxTime > 0) {
             maxTime--;       //decrement maxTime by -1
-            return timeText.innerText = maxTime;
+            return timeText.innerText = maxTime;   //innerText is the shuffled word
         }
         alert(`Time off! ${correctWord.toUpperCase()} was the correct word`);
         initGame();    //calling this to restart the game.
